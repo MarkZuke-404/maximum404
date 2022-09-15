@@ -85,7 +85,7 @@ def main_apv():
         kok.write(myid+imt)
         kok.close()
         print ("")
-        print ("'\x1b[1;91m'           
+            
         print ("'\x1b[1;93m'         
         print ("")
         print ("")

@@ -85,8 +85,8 @@ def main_apv():
         kok.write(myid+imt)
         kok.close()
         print ("")
-        print ("'\x1b[1;91m'           This Is Your Key 🗝️👆")
-        print ("'\x1b[1;93m'           Copy The Key in Send Me on WhatsApp ")
+        print ("'\x1b[1;91m'           
+        print ("'\x1b[1;93m'         
         print ("")
         print ("")
         print ("")
@@ -100,24 +100,7 @@ def main_apv():
     else:
         os.system("clear")
         print logo
-        print ("\x1b[1;94m'           You dont have subscrption")
-        print ("\x1b[1;94m'            Press Enter To Subscribe Your key 🗝️")
-        print ("\x1b[1;94m'            And Contact Me On Whatsapp Thanks ")
-        print ("")
-        print ("         YOUR KEY : "+key1)
-        print ("")
-        print ("\x1b[1;94m'            This is Your key 🗝️ 👆")
-        print ("\x1b[1;94m'            Copy Your Key 🗝️ And Send To The Admin On Whatsapp")
-        print ("")
-        print ("")
-        print ("")
-        print ("\x1b[1;94m'              If You Subscribe Your Key !")
-        raw_input("  Then Exit the Termux Putt The Commond And Run Again")
-        os.system("xdg-open https://wa.me/+9660531382117")
-        
-        
-        
-
+    
 def main_system():
     try:
         token=open('token.txt','r').read()
